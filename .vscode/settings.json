@@ -1,0 +1,16 @@
+{
+  "html.format.wrapAttributes": "force-aligned",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#e63737",
+    "activityBar.foreground": "#ffffff",
+    "activityBarBadge.background": "#e63737",
+    "activityBarBadge.foreground": "#252525",
+    "titleBar.activeBackground": "#e63737",
+    "titleBar.inactiveBackground": "#e63737",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveForeground": "#15202b99",
+    "statusBar.background": "#e63737",
+    "statusBarItem.hoverBackground": "#e63737",
+    "statusBar.foreground": "#15202b"
+  }
+}

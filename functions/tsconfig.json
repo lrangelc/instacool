@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./functions/node_modules/@tyopes"],
     "module": "commonjs",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
@@ -9,7 +10,5 @@
     "target": "es2017"
   },
   "compileOnSave": true,
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
