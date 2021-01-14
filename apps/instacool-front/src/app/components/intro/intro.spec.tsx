@@ -5,7 +5,7 @@ import Intro from './intro';
 
 describe('Intro', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Intro />);
+    const { baseElement } = render(<Intro text='' />);
     expect(baseElement).toBeTruthy();
   });
 });

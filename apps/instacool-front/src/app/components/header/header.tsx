@@ -2,12 +2,12 @@ import React from 'react';
 
 import './header.module.scss';
 
-import { ReactComponent as Logo } from '../logo.svg';
+import { ReactComponent as Logo } from '../../logo.svg';
 
 /* eslint-disable-next-line */
-export interface HeaderProps {}
+export interface IHeaderProps {}
 
-export function Header(props: HeaderProps) {
+export function Header(props: IHeaderProps) {
   return (
     <header className="flex">
         <Logo width="75" height="75" />

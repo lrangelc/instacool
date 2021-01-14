@@ -2,14 +2,16 @@ import React from 'react';
 
 import styles from './app.module.scss';
 
-import Header from './header/header';
-import Intro from './intro/intro';
+import Header from './components/header/header';
+import Intro from './components/Intro';
+// import Intro from './components/intro/intro';
 
 export function App() {
   return (
     <div className={styles.app}>
       <Header />
-      <Intro />
+      <Intro dato={25} />
+      <Intro text='Texto para Intro 2' />
     </div>
   );
 }
