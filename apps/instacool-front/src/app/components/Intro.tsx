@@ -10,13 +10,14 @@ interface IIntroState {
   dato: number;
 }
 
-export default class Intro extends React.Component<IIntroProps, IIntroState> {
+class Intro extends React.Component<IIntroProps, IIntroState> {
   public state = {
     text: 'Soy un texto del estado',
     dato: this.props.dato ?? 10,
   };
 
   public render() {
+    console.log(this.props);
     const { text } = this.props;
     const t = text ? text : this.state.text;
 
@@ -43,3 +44,5 @@ export default class Intro extends React.Component<IIntroProps, IIntroState> {
     });
   };
 }
+
+export default Intro;
